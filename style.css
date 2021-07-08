@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h1 span{
+    color: orange;
+    font-size: 50px;
+    font-style: italic;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h3{
+    text-shadow: 2px 2px aquamarine;
+}
+ .header-text p{
+ color: darkcyan;
+ line-height: 1.6;
+}
+
+.site-button {
+    text-decoration: none;
+    background: linear-gradient(45deg , skyblue,aqua);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    font-size: 16px;
+}
+.half-width{
+    width: 50%;
+}
+
+.half-width img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    float: right;
+    border: 1px solid red;
+    box-shadow: 5px 5px 10px gray,  -5px -5px 10px gray;
+
+}   
+.parant{
+    display: flex;
+    padding: 20px;
+}
+
+/*/////////about section//////// */
+
+.half-width h3{
+    text-shadow: 2px 2px greenyellow ;
+    font-family: cookie;
+}
+.half-width p{
+    text-align: center;
+    color: darkcyan;
+   line-height: 1.5;
+   font-style: italic;
+}
+.button{
+    text-decoration: none;
+    background: linear-gradient(45deg , skyblue,aqua);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    font-size: 16px;
+}
+.m-right{
+    margin-right: 50px;
+}
+.experience-card{
+    box-shadow: 5px 5px 10px gray;
+    margin: 20px;
+}
+footer p{
+    text-align: center;
+    color: darkgray;
+}
+.more h1{
+    margin-left: 50px;
+    margin-top: 20px;
+    color: darksalmon;
+}
+
+/*////////////sprites/////////////*/
+
+.icons{
+    overflow: hidden;
+}
+.icons ul{
+    margin: 0;
+    padding: 0;
+}
+.icons ul li{
+    list-style-type: none;
+    float: left;
+    margin-right: 10px;
+}
+.icons ul li:last-child{
+    margin-right: 0;
+}
+.icons ul li a{
+    background-image: url('social.png');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    width: 64px;
+    height: 63px;
+    display: inline-block;
+    border: 2px solid greenyellow;
+    align-items: center;
+    border-radius: 50%;
+    transition: 1s;
+}
+.icons h1{
+    font-family: cookie;
+    color: darkseagreen;
+}
+.icons ul li:hover:nth-child(1) a{
+    background-position: 0 -64px;
+}
+
+/*in this code come to dreebole img*/
+.icons ul li:nth-child(2) a{
+    background-position: -129px 0;
+}
+
+/* and this code color dreebole come value*/
+.icons ul li:hover:nth-child(2) a{
+   background-position: -129px -64px;
+}
+
+.icons ul li:nth-child(3) a{
+    background-position: -193px 0;
+} 
+.icons ul li:hover:nth-child(3) a{
+    background-position: -193px -64px;
+}
+.icons ul li:nth-child(4) a{
+    background-position: -450px 0;
+} 
+.icons ul li:hover:nth-child(4) a{
+    background-position: -450px -64px;
+}
